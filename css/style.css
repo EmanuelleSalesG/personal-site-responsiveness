@@ -1,0 +1,241 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-logo img{
+    width: 200px;
+    margin-left: 1rem;
+}
+
+.logos-contact img {
+    width: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 8.5rem;
+}
+
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.2ms;
+    
+}
+
+.navigation ul li a:hover{
+    color: #974865;
+    border-bottom: solid 1px #97486560;
+}
+
+
+/* FISRT PAGE - PRESENTATION */
+
+.text-presentation{
+    margin: 1rem;
+}
+
+.main-text-area h1{
+    font-size: 5rem;
+    text-align: start;
+    color: #974865;
+}
+
+.main-text-area p{
+    font-size: 2rem;
+    text-align: start;
+}
+
+span{
+    color: #974865;
+    font-weight: 800;
+}
+
+/* SKILLS */
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    background-color: #974865;
+}
+.skills-list{
+    display: flex;
+    gap: 2rem;   
+}
+
+.skills h1{
+    font-weight: 300;
+    font-size: 2.5rem;  
+}
+
+.skills-list li{
+    list-style: none;
+}
+
+/* ABOUT ME */
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem;
+}
+
+.title-contact{
+    font-size: 2.5rem;
+    color: #974865;
+}
+
+.who-Iam{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/* CONTACT ME */
+
+.contactme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.container{
+    border: solid 1px #974865;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img{
+    width: 200px;
+}
+
+.title-contact, .parag-contact{
+    margin: 1rem;
+}
+
+.github-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 25rem;
+}
+
+.btn{
+    padding: 10px;
+    background-color: #974865;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2ms;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.btn-github{
+    background-color: black;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #974865;
+    color: white;
+}
+
+
+/* RESPONSIVENESS */
+
+@media (max-width: 900px){
+
+    header{
+        height: 13rem;
+        flex-direction: column;
+        padding: 2rem;
+
+    }
+
+    .navigation ul{
+        margin: 1rem;
+    }
+    
+    .flex{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .navigation ul{
+        margin: 1rem;
+    }
+
+    /* FISRT PAGE - PRESENTATION */
+
+    .main-text-area h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .main-text-area p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .img-presentation img{
+        width: 150px;
+        margin-left: 1rem;
+    }
+
+    /* SKILLS */
+
+    .skills{
+        padding: 2rem;
+        
+    }
+
+    .skills h1{
+        font-size: 1.5rem;  
+        margin-bottom: .5rem;
+        border-bottom: solid 1px white;
+    }
+    
+    .skills-list{
+        flex-direction: column;
+    }
+
+    /* ABOUT ME */
+    .who-Iam{
+        font-size: 1rem;
+    }
+
+    /* HIDDEN GITHUB NAVIGATION BUTTON */ 
+
+    .logos-contact{
+        display: none;
+    }
+
+}
+

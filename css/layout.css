@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: .5fr 6fr .4fr;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.68fr .28fr 2fr;
+}
+
+.skills{
+    grid-column: span 2;
+}
+
+.main-text-area{
+    grid-column: span 2;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text-area{
+    height: 80vh;
+}
+
+header{
+    height: 5rem;
+}
+
+footer{
+    height: 4rem;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 900px){
+    main{
+        grid-template-columns: 1fr;
+        grid-template-rows: .55fr .25fr .5fr .5fr;
+    }
+
+    .skills{
+        grid-column: 1;
+    }
+
+    .main-text-area{
+        grid-column: 1;
+    }
+    
+
+    
+}
