@@ -1,4 +1,4 @@
-# personal-site-responsiveness
+# responsive-personal-site
 
 I created this website myself to apply the knowledge I've gained so far in my Full Stack journey. It's a responsive site, built using HTML and CSS. The design is my own creation, infused with elements of my personality.
 
